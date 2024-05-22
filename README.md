@@ -10,8 +10,8 @@ In this repository, he will work us through the most basic tasks from docker set
 
 ## 2-WAL-writing ahead log.
 
-<img src=".\media\WAL.png" width="200" height="150" alt="Cat picture">
-!["WAL"](.\media\WAL.png "WAL mechanism")
+<div style="text-align: center"><img src=".\media\WAL.png" width="400" height="200" alt="WAL machenism"></div>
+
 This is a mechanism that help to recover whenever our database crashes.
 
 Suppose we have a backup version on **Monday** but the database crash on the following **Saturday**.
