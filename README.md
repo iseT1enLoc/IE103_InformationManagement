@@ -22,15 +22,15 @@ We do not have the backup version between the interval from tuesday to saturday,
 
 In Window version, we can find the configs find in **‘.\PostgreSQL\16\data\{intended file}’** path.
 
-## 2.1.pg_hba.conf
+## 3.1.pg_hba.conf
 
 **pg_hba.conf** stands for host-based authentication file. It is like the postgres firewall configuration. It tell us which ip address or which user we can trust.
 
-## 2.2.pg_ident.conf
+## 3.2.pg_ident.conf
 
 This allow us to map operating system user account to database user.
 
-## 2.3.postgresql.conf
+## 3.3.postgresql.conf
 
 This is one of the critical configuration file that we should look into.
 
@@ -45,4 +45,6 @@ There is a hundreds line of document writing about this file but in this section
   - Connection settings: we can config information suchas max-connections, suitable port number (5432 by default).
   - TCP settings: tcp_keepalives_idle, tcp_keepalives_interval, tcp_keepalives_count, tcp_user_timeout.
   - Authentication settings: the easiest information of this part is **password_encryption** technique, we can choose from various technique such as scram-sha-256, md5 and so on.
-  -
+## 4-References.
+[Postgres Documentation](https://www.postgresql.org/docs/)
+[The DevOps Guy Youtube](https://www.youtube.com/playlist?list=PLHq1uqvAteVsnMSMVp-Tcb0MSBVKQ7GLg): youtube chanel that help us understand more deeper about postgres, data replication and devops in general.
