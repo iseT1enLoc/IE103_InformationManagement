@@ -10,7 +10,7 @@ In this repository, he will work us through the most basic tasks from docker set
 
 ## 2-WAL-writing ahead log.
 
-<div style="text-align: center"><img src=".\media\WAL.png" width="400" height="200" alt="WAL machenism"></div>
+<div style="text-align: center"><img src=".\media\WAL.png" width="500" height="300" alt="WAL machenism"></div>
 
 This is a mechanism that help to recover whenever our database crashes.
 
